@@ -1,0 +1,101 @@
+.dashboard {
+}
+
+.dashboard__title {
+  margin-bottom: 40px;
+}
+.dashboard__orders {
+  display: flex;
+  gap: 40px;
+}
+
+.dashboard .latest__orders {
+  flex: 2;
+}
+
+.dashboard h4 {
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.status {
+  color: #fff;
+  width: fit-content;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.shipping {
+  background-color: #2563eb;
+}
+
+.paid {
+  background-color: #22c55e;
+}
+
+.pending {
+  background-color: #f97316;
+}
+
+.refund {
+  background-color: #dc2626;
+}
+
+.dashboard .btn {
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  border: 0;
+  outline: none;
+  color: var(--txt-color);
+}
+.dashboard .dashboard__view {
+  display: block;
+
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.dashboard .top__customers {
+  flex: 1;
+}
+
+.dashboard__header {
+  background-color: rgb(250, 248, 248);
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: var(--txt-color);
+}
+
+.dashboard__details {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.dashboard .details__number {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.chart {
+  flex: 2;
+}
+
+.details__data {
+  flex: 2;
+  /* gap: 20px; */
+  gap: 40px;
+  padding: 0;
+}
+
+.dashboard .dashboard__details ion-icon {
+  font-size: 50px;
+}
+
+.app.dark-background .dashboard__view {
+  color: #fff;
+}

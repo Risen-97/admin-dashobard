@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Dashboard",
+    "route": "/",
+    "icon": "apps-outline"
+  },
+  {
+    "name": "Customers",
+    "route": "/customers",
+    "icon": "person-circle-outline"
+  },
+  {
+    "name": "Products",
+    "route": "/products",
+    "icon": "cube-outline"
+  },
+  {
+    "name": "Orders",
+    "route": "/orders",
+    "icon": "cart-outline"
+  },
+  {
+    "name": "Analytics",
+    "route": "/analytics",
+    "icon": "analytics-outline"
+  },
+  {
+    "name": "categories",
+    "route": "/categories",
+    "icon": "list-outline"
+  },
+  {
+    "name": "discount",
+    "route": "/discount",
+    "icon": "gift-outline"
+  },
+  {
+    "name": "inventory",
+    "route": "/inventory",
+    "icon": "wallet-outline"
+  },
+  {
+    "name": "settings",
+    "route": "/settings",
+    "icon": "settings-outline"
+  }
+]

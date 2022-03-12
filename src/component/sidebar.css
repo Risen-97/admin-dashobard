@@ -1,0 +1,71 @@
+.sidebar {
+  width: var(--sidebar-width);
+  /* background-color: red; */
+  height: 100vh;
+  position: sticky;
+  left: 0;
+  top: 0;
+  box-shadow: var(--box-shadow-dark);
+}
+
+.sidebar__container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 2rem 1.5rem;
+  padding-right: 1rem;
+}
+
+.sidebar__title {
+  margin-bottom: 30px;
+  font-size: 28px;
+  align-self: center;
+}
+
+.sidebar__links {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  list-style: none;
+  gap: 5px;
+}
+
+.sidebar__links--link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: capitalize;
+  font-weight: 600;
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.sidebar__links--link:hover,
+.sidebar__links--link.active {
+  background-color: var(--main-color);
+  color: var(--txt-white);
+}
+.sidebar__links--link {
+  text-decoration: none;
+  color: var(--txt-color);
+}
+.sidebar__links ion-icon {
+  font-size: 20px;
+}
+
+.app.dark-background .sidebar {
+  background-color: var(--main-bg-dark);
+}
+
+.app.dark-background .sidebar__links--link,
+.app.dark-background .sidebar__links--link {
+  color: var(--txt-white);
+}
+
+.app.dark-background .sidebar__links--link:hover,
+.app.dark-background .sidebar__links--link.active {
+  background-color: var(--second-color-red);
+}
